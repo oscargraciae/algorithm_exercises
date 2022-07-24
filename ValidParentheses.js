@@ -17,8 +17,6 @@ function isValid(s: string): boolean {
   
   if (temp.length > 0) return false
   
-  console.log(temp)
-  
   return true
 };
 

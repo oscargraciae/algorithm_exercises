@@ -17,18 +17,3 @@ function groupAnagrams(strs: string[]): string[][] {
 };
 
 groupAnagrams(["eat","tea","tan","ate","nat","bat"])
-
-
-// function groupAnagrams(strs: string[]): string[][] {
-//   const hash = {}
-// 	for (let x = 0; x < strs.length; x++) {
-//     const newS = strs[x].split('').sort().join('')
-//     if (hash[newS] !== undefined) {
-//       hash[newS] = [...hash[newS], strs[x]]
-//     } else {
-//       hash[newS] = [strs[x]]
-//     }
-//   }
-  
-//   return Object.values(hash)
-// };
